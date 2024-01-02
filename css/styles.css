@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    background-color: #e1e4cc;
+    margin: 0;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.navbar
+{
+    display: flex;
+    padding: 25px 25px 0px ;
+    justify-content: right;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: 1030; 
+}
+.navbar ul li a
+{
+    float: right;
+    color: rgba(0, 0, 0, 0.557);
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+}
+.navbar ul li{
+    font-size: 16px;
+    list-style-type: none;
+	display: inline-block;
+	padding: 10px  15px;
+    align-items: right;
+}
+.navbar a.logo:hover{
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: rgb(144, 0, 0);
+    text-shadow: 1.5px rgb(144, 0, 0);
+}
+.navbar a.space{
+    width: 0px;
+}
+.navbar a.logo{
+    align-items: left;
+    padding-right: 500px;
+    text-decoration: none;
+    color: BLACK;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', sans-serif;
+}
+/*---name---*/
+.Hero{
+    width: auto;
+    margin: auto;
+    height: 270px;
+    padding: 250px 120px;
+    font-family:'josefin Sans';
+}
+.Hero h1{
+    font-size: 70px;
+    padding-bottom: 20PX;
+}
+.Hero h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.Hero h2{
+    font-size: 30px;
+}
+span{
+    color: rgba(71, 102, 112, 0.8);
+}
+
+/*----about me-----*/
+.me{
+    height: 560px;
+    margin: auto;
+    width: auto;
+    padding: 70px 0px 70px 50px;
+}
+.me{
+    display: flex;
+    width: auto;
+}
+.me img{
+    height: auto;
+    width: 500px;
+    border-radius: 1px;
+}
+.container{
+    padding: 50px 40px 50px 100px;
+}
+.me h1{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 300;
+    font-family:'josefin Sans';
+}
+.me p{
+    width: 550px;
+}
+.DC{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.DC h2{
+    font-size: 25px;
+    font-family:'josefin Sans';
+}
+
+/*----Projects-----*/
+.proj{
+    height: 560px;
+    margin: auto;
+    width: auto;
+    padding: 45px;
+}
+.proj h1{
+    font-family: 'josefin Sans';
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+.footer p{
+    background-color: #F1F1F1;
+    align-content: center;
+    padding: 10px 300px;
+  }
